@@ -20,4 +20,7 @@ ALE	          Common	    23		                     60
 GIN	          Preferred	  8	          2%	          100	
 JOE	          Common	    13		                    250	
 
-
+The execution of the jar (JRE 7) will produces the following files:
+- a file xxx_trade.txt for each stock symbol
+- a file AllStockPrice.txt in which collect all the stock price 
+ 
