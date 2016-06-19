@@ -2,6 +2,9 @@
 
 In this repository you'll find a little executable jar to calculate some index on stock symbol.
 The jar contains the source code.
+Double click on the executable jar (JRE 7) will open a JPanel to interface the available operations.
+First of all you've insert one of the stock symbol included in the sampledata.properties (in the following rows).
+Panel messages and systemOut trace make evidence of the results.
 
 a.	For a given stock, 
   i.	calculate the dividend yield
@@ -11,7 +14,7 @@ a.	For a given stock,
 b.	Calculate the GBCE All Share Index using the geometric mean of prices for all stocks
 
 
-sampledata (included in the jar):
+sampledata.properties (included in the jar):
 
 Stock Symbol	Type	Last Dividend	Fixed Dividend	Par Value	
 TEA	          Common	    0		                      100	
@@ -19,6 +22,7 @@ POP	          Common	    8		                      100
 ALE	          Common	    23		                     60	
 GIN	          Preferred	  8	          2%	          100	
 JOE	          Common	    13		                    250	
+
 
 The execution of the jar (JRE 7) will produces the following files:
 - a file xxx_trade.txt for each stock symbol
