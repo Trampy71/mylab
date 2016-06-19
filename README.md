@@ -6,12 +6,14 @@ Double click on the executable jar (JRE 7) will open a JPanel to interface the a
 First of all you've insert one of the stock symbol included in the sampledata.properties (in the following rows).
 Panel messages and systemOut trace make evidence of the results.
 
-a.	For a given stock, 
+a)	For a given stock
+
   i.	calculate the dividend yield
   ii.	calculate the P/E Ratio
   iii.	record a trade, with timestamp, quantity of shares, buy or sell indicator and price
   iv.	Calculate Stock Price based on trades recorded in past 15 minutes
-b.	Calculate the GBCE All Share Index using the geometric mean of prices for all stocks
+
+b)	Calculate the GBCE All Share Index using the geometric mean of prices for all stocks
 
 
 sampledata.properties (included in the jar):
