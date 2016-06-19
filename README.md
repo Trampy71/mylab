@@ -21,11 +21,11 @@ b)	Calculate the GBCE All Share Index using the geometric mean of prices for all
 
 sampledata.properties (included in the jar):
 
-Stock Symbol	Type	Last Dividend	Fixed Dividend	Par Value	
+StockSymbol	Type	LastDividend	FixedDividend	ParValue	
 TEA	          Common	    0		                      100	
 POP	          Common	    8		                      100	
-ALE	          Common	    23		                       60
-JOE	          Common	    13		                     250	
+ALE	          Common	    23		                       60   
+JOE	          Common	    13		                     250
 GIN	          Preferred	     8	          2%	          100	
 
 
