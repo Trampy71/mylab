@@ -25,8 +25,8 @@ StockSymbol	Type	LastDividend	FixedDividend	ParValue
 TEA	          Common	    0		                      100	
 POP	          Common	    8		                      100	
 ALE	          Common	    23		                       60   
-JOE	          Common	    13		                     250
-GIN	          Preferred	     8	          2%	          100	
+JOE	          Common	    13		                     250    
+GIN	          Preferred	     8	          2%	          100 	
 
 
 The execution of the jar (JRE 7) will produces the following files:
